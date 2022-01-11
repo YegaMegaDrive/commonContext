@@ -7,7 +7,9 @@ public interface ContextRepository {
 
    CommonContext getContext(String token);
 
-   void updateContext(CommonContext context);
+   void updateContext(CommonContext context, String token);
 
    void deleteContext(String token);
+
+   void refreshTimeToLive(String token);
 }
