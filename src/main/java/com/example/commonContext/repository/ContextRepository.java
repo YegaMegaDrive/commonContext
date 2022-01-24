@@ -4,7 +4,7 @@ import com.example.commonContext.entity.CommonContext;
 
 public interface ContextRepository {
 
-    void createContext(String token, CommonContext context);
+   void createContext(String token, CommonContext context);
 
    CommonContext getContext(String token);
 
